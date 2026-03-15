@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Global Weather Explorer</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🌍 Global Weather Explorer</h1>
+
+<p>Explore real-time weather conditions around the world</p>
+
+<!-- Weekly Calendar -->
+
+<div id="calendar"></div>
+
+</header>
+
+<!-- Search Section -->
+
+<section class="search-section">
+
+<h2>Search Weather by City</h2>
+
+<div class="search-box">
+
+<input
+type="text"
+id="cityInput"
+placeholder="Enter city name (e.g. London)"
+
+>
+
+<button id="searchBtn">Search</button>
+
+</div>
+
+<p id="errorMessage"></p>
+
+</section>
+
+<!-- Current Weather -->
+
+<section class="weather-section">
+
+<h2>Current Weather</h2>
+
+<div id="weatherResult" class="weather-card">
+
+<p>Search for a city to see the weather.</p>
+
+</div>
+
+</section>
+
+<!-- Forecast -->
+
+<section class="forecast-section">
+
+<h2>5 Day Forecast</h2>
+
+<div id="forecastContainer">
+
+<p>Forecast will appear here.</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Global Weather Explorer</p>
+
+<p>Weather data provided by OpenWeather API</p>
+
+</footer>
+
+<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
