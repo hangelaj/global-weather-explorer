@@ -8,7 +8,6 @@ The application retrieves weather data from the OpenWeather API and displays cur
 
 The project demonstrates key front-end development concepts including API integration, DOM manipulation, responsive design, and user interaction using HTML, CSS, and JavaScript.
 
-
 ## Features
 
 City Weather Search
@@ -53,28 +52,27 @@ Used to retrieve dynamic city images.
 GitHub
 Used for version control and project hosting.
 
-
 ## Project Structure
-
 global-weather-explorer
 
-index.html
-
-assets
- css
-  style.css
-
- js
-  app.js
-
-docs
- wireframes.md
-
-testing
- testing.md
-
-README.md
-
+│
+├── index.html          # Main HTML file
+├── README.md           # Project documentation
+│
+├── assets              # Static assets
+│   ├── css
+│   │   └── style.css   # Styling and layout
+│   │
+│   ├── js
+│   │   └── app.js      # JavaScript functionality
+│   │
+│   └── images          # Images (optional assets)
+│
+├── docs
+│   └── wireframes.md   # Wireframes and design planning
+│
+├── testing
+│   └── testing.md      # Testing documentation
 
 ## How to Run the Project
 
