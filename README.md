@@ -15,7 +15,6 @@ The application retrieves weather data from the OpenWeather API and displays cur
 
 The project demonstrates key front-end development concepts including API integration, DOM manipulation, responsive design, and user interaction using HTML, CSS, and JavaScript.
 
-
 ## Features
 
 City Weather Search
@@ -60,9 +59,7 @@ Used to retrieve dynamic city images.
 GitHub
 Used for version control and project hosting.
 
-
 ## Project Structure
-
 global-weather-explorer
 
 │
@@ -83,6 +80,7 @@ global-weather-explorer
 │
 ├── testing
 │   └── testing.md      # Testing documentation
+<<<<<<< HEAD
 
 
 ## Deployment
@@ -107,6 +105,8 @@ To deploy:
 Live Link: [https://hangelaj.github.io/global-weather-explorer/ ](https://hangelaj.github.io/global-weather-explorer/)
 
 You can view the live project here:
+=======
+>>>>>>> 532747d874a99661935b9202afe84f69fed2e474
 
 ## How to Run the Project
 
