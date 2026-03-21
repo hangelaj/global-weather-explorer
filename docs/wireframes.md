@@ -1,9 +1,16 @@
+<!-- ======================================================
+  Global Weather Explorer Professional Project Documentation
+   Author: Jemal Hangela
+   Project 2: Global Weather Explorer (Interactive Frontend Development Project)
+   Last Updated:21 March 2026
+====================================================== -->
+
 # Wireframes – Global Weather Explorer
 
 ## Introduction
 
 Wireframes were created during the planning stage of the Global Weather Explorer project.
-They represent the basic layout and structure of the user interface before development began.
+Represent the basic layout and structure of the user interface before development began.
 The goal of the wireframes is to visualise how users will interact with the application and where key elements will be positioned.
 
 The design focuses on simplicity, clarity, and user-friendly navigation.
@@ -138,3 +145,9 @@ Possible improvements to the wireframe design include:
 * Adding a map to display the searched location
 * Allowing users to save favourite cities
 * Adding weather animations or background themes
+
+## Author
+Level 5 Diploma in Web Application Development project 2
+Project developed as part of a front-end web development learning project.
+
+Author: Jemal Hangela

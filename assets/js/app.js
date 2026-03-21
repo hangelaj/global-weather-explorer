@@ -1,10 +1,19 @@
+// Global Weather Explorer -JS Main Application Logic
+// Author: Jemal Hangela
+//Project 2: Global Weather Explorer (Interactive Frontend Development Project)
+  // Last Updated:21 March 2026
+
+// API Key for OpenWeather API
 const apiKey = "ad566afaa8777e2f412ad0d93fbd7521";
 
+// DOM Elements
 const cityInput = document.getElementById("cityInput");
 const searchBtn = document.getElementById("searchBtn");
 
+// Event Listeners
 searchBtn.addEventListener("click", searchWeather);
 
+// Allow pressing Enter key to search
 cityInput.addEventListener("keypress", function(e){
 
 if(e.key === "Enter"){
@@ -15,7 +24,7 @@ searchWeather();
 
 });
 
-
+// Initialise Calendar
 createCalendar();
 
 
@@ -47,7 +56,7 @@ calendar.appendChild(dayElement);
 
 }
 
-
+// Main function to search weather based on city input
 
 function searchWeather(){
 
@@ -68,7 +77,7 @@ getForecast(city);
 }
 
 
-
+// Function to fetch current weather data for a given city
 function getWeather(city){
 
 fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`)
@@ -90,7 +99,7 @@ displayWeather(data);
 
 }
 
-
+// Function to get a city logo from Unsplash based on the city name
 
 function getCityLogo(city){
 
@@ -99,7 +108,7 @@ return `https://source.unsplash.com/100x100/?${city},city`;
 }
 
 
-
+// Function to display current weather data on the page
 function displayWeather(data){
 
 const icon = data.weather[0].icon;
@@ -120,15 +129,13 @@ let html = `
 
 <p>💧 Humidity: ${data.main.humidity}%</p>
 
-<p>🌬 Wind Speed: ${data.wind.speed} m/s</p>
-
-`;
+<p>🌬 Wind Speed: ${data.wind.speed} m/s</p>`;
 
 document.getElementById("weatherResult").innerHTML = html;
 
 }
 
-
+// Function to fetch 5-day weather forecast for a given city
 
 function getForecast(city){
 
@@ -140,7 +147,7 @@ fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&a
 
 }
 
-
+// Function to display 5-day weather forecast on the page
 
 function displayForecast(data){
 
@@ -166,10 +173,9 @@ let card = `
 
 <p>${forecast.weather[0].main}</p>
 
-</div>
+</div>`;
 
-`;
-
+// Append forecast card to container
 container.innerHTML += card;
 
 }

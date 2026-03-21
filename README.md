@@ -1,3 +1,10 @@
+<!-- ======================================================
+  Global Weather Explorer Professional README.md Project Documentation
+   Author: Jemal Hangela
+   Project 2: Global Weather Explorer (Interactive Frontend Development Project)
+   Last Updated:21 March 2026
+====================================================== -->
+
 # Global Weather Explorer
 
 ## Overview
@@ -58,23 +65,48 @@ Used for version control and project hosting.
 
 global-weather-explorer
 
-index.html
+│
+├── index.html          # Main HTML file
+├── README.md           # Project documentation
+│
+├── assets              # Static assets
+│   ├── css
+│   │   └── style.css   # Styling and layout
+│   │
+│   ├── js
+│   │   └── app.js      # JavaScript functionality
+│   │
+│   └── images          # Images (optional assets)
+│
+├── docs
+│   └── wireframes.md   # Wireframes and design planning
+│
+├── testing
+│   └── testing.md      # Testing documentation
 
-assets
- css
-  style.css
 
- js
-  app.js
+## Deployment
 
-docs
- wireframes.md
+### The project was deployed using GitHub Pages.
+Githup pages link: [text](https://github.com/hangelaj/global-weather-explorer)
 
-testing
- testing.md
+## Steps for Deployment
+1. The project code was pushed to a GitHub repository.
+2. The repository settings were opened and the Pages section was selected.
+3. The deployment source was set to the main branch.
+4. The root folder was selected as the deployment directory.
+To deploy:
 
-README.md
+## Repository Settings
+1. Click Pages
+2. Select branch: main
+3. Select folder: / (root) or /pages
+4. Save
 
+## The project was successfully deployed and is accessible via a public URL.
+Live Link: [https://hangelaj.github.io/global-weather-explorer/ ](https://hangelaj.github.io/global-weather-explorer/)
+
+You can view the live project here:
 
 ## How to Run the Project
 
@@ -113,7 +145,7 @@ Adding weather animations or themes
 
 
 ## Author
-
+Level 5 Diploma in Web Application Development project 2
 Project developed as part of a front-end web development learning project.
 
 Author: Jemal Hangela

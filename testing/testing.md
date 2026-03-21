@@ -1,3 +1,10 @@
+<!-- ======================================================
+  Global Weather Explorer Professional testing.md Project Documentation
+   Author: Jemal Hangela
+   Project 2: Global Weather Explorer (Interactive Frontend Development Project)
+   Last Updated:21 March 2026
+====================================================== -->
+
 # Testing – Global Weather Explorer
 
 ## Introduction
@@ -166,3 +173,9 @@ Cross-browser testing (Firefox, Safari, Edge)
 Automated testing tools
 
 Performance testing for larger datasets
+
+## Author
+Level 5 Diploma in Web Application Development project 2
+Project developed as part of a front-end web development learning project.
+
+Author: Jemal Hangela
