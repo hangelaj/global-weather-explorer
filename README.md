@@ -103,12 +103,9 @@ To deploy:
 
 ## The project was successfully deployed and is accessible via a public URL.
 Live Link: [https://hangelaj.github.io/global-weather-explorer/ ](https://hangelaj.github.io/global-weather-explorer/)
+Open the the live link by duble ckliking and then Enter a city name and click the search button to view weather information.
 
-You can view the live project here:
-=======
->>>>>>> 532747d874a99661935b9202afe84f69fed2e474
-
-## How to Run the Project
+## Another option on how to Run the Project
 
 1. Download or clone the repository from GitHub.
 
@@ -117,7 +114,6 @@ You can view the live project here:
 3. Open the file index.html in a web browser.
 
 4. Enter a city name and click the search button to view weather information.
-
 
 ## API Integration
 
