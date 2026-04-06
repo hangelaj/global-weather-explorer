@@ -1,20 +1,21 @@
 <!-- ======================================================
-  Global Weather Explorer Professional Project Documentation
+   Project: Global Weather Explorer
+   Module: Interactive Frontend Development (Project 2)
    Author: Jemal Hangela
-   Project 2: Global Weather Explorer (Interactive Frontend Development Project)
-   Last Updated:21 March 2026
+   Description: Wireframes documentation for application layout and UX design
+   Last Updated:06 April 2026
 ====================================================== -->
-
 # Wireframes – Global Weather Explorer
 
 ## Introduction
 
 Wireframes were created during the planning stage of the Global Weather Explorer project.
-Represent the basic layout and structure of the user interface before development began.
+They represent the basic layout and structure of the user interface before development began.
 The goal of the wireframes is to visualise how users will interact with the application and where key elements will be positioned.
 
 The design focuses on simplicity, clarity, and user-friendly navigation.
 
+---
 
 ## Homepage Layout
 
@@ -27,6 +28,7 @@ The main interface of the application includes the following sections:
 5. Five-day weather forecast
 6. Footer
 
+---
 
 ## Wireframe Structure
 
@@ -49,6 +51,7 @@ Explore real-time weather conditions around the world
 
 Sun  Mon  Tue  Wed  Thu  Fri  Sat
 
+---
 
 ### Search Section
 
@@ -69,6 +72,7 @@ Search Weather
 
 (Error message if city not found)
 
+---
 
 ### Current Weather Section
 
@@ -96,6 +100,7 @@ Weather Description
 Humidity
 Wind Speed
 
+---
 
 ### Forecast Section
 
@@ -113,6 +118,7 @@ Example layout:
 
 [Day 1]   [Day 2]   [Day 3]   [Day 4]   [Day 5]
 
+---
 
 ### Footer
 
@@ -123,6 +129,8 @@ Example layout:
 
 © 2026 Global Weather Explorer
 Weather data provided by OpenWeather API
+
+---
 
 ## Design Considerations
 
@@ -137,6 +145,7 @@ The layout is designed to work on both desktop and mobile devices.
 Accessibility
 Clear text, spacing, and color contrast help improve readability and usability.
 
+---
 
 ## Future Improvements
 
@@ -147,7 +156,4 @@ Possible improvements to the wireframe design include:
 * Adding weather animations or background themes
 
 ## Author
-Level 5 Diploma in Web Application Development project 2
-Project developed as part of a front-end web development learning project.
-
-Author: Jemal Hangela
+Jemal Hangela

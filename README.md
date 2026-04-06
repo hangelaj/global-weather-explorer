@@ -106,7 +106,6 @@ Live Link: [https://hangelaj.github.io/global-weather-explorer/ ](https://hangel
 
 You can view the live project here:
 =======
->>>>>>> 532747d874a99661935b9202afe84f69fed2e474
 
 ## How to Run the Project
 
