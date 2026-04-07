@@ -85,10 +85,10 @@ This project is deployed using **GitHub Pages**.
 
 ###  Live Demo
 
- https://hangelaj.github.io/global-weather-explorer/
+https://hangelaj.github.io/global-weather-explorer/ 
 
 ###  GitHub Repository
- https://github.com/hangelaj/global-weather-explorer
+https://github.com/hangelaj/global-weather-explorer.git 
 
 ===
 
