@@ -1,150 +1,178 @@
 <!-- ======================================================
-  Global Weather Explorer Professional README.md Project Documentation
-   Author: Jemal Hangela
-   Project 2: Global Weather Explorer (Interactive Frontend Development Project)
-   Last Updated:21 March 2026
+Global Weather Explorer - Professional README Documentation
+Author: Jemal Hangela
+Project 2: Interactive Frontend Development
+Last Updated: April 2026
 ====================================================== -->
 
-# Global Weather Explorer
+#  Global Weather Explorer
 
-## Overview
+##  Overview
 
-Global Weather Explorer is a web application that allows users to search for real-time weather information for cities around the world.
+Global Weather Explorer is an interactive front-end web application that allows users to search for real-time weather information for cities around the world.
 
-The application retrieves weather data from the OpenWeather API and displays current weather conditions along with a five-day forecast.
+The application integrates with the OpenWeather API to display current weather conditions along with a five-day forecast. It demonstrates key front-end development skills including API integration, DOM manipulation, responsive design, and user interaction using HTML, CSS, and JavaScript.
 
-The project demonstrates key front-end development concepts including API integration, DOM manipulation, responsive design, and user interaction using HTML, CSS, and JavaScript.
+===
 
 ## Features
 
-City Weather Search
-Users can search for any city and view its current weather conditions.
+* **City Weather Search**
+  Users can search for any city and instantly view current weather conditions.
 
-Five-Day Forecast
-The application displays a five-day weather forecast with temperature and weather conditions.
+* **Five-Day Forecast**
+  Displays a 5-day forecast including temperature and weather conditions.
 
-Weekly Calendar
-A weekly calendar shows the days from Sunday to Saturday and highlights the current day.
+* **Weekly Calendar**
+  A visual calendar showing all days of the week with the current day highlighted.
 
-City Logo Images
-Each searched city displays a dynamic city image to enhance the visual appearance of the application.
+* **Dynamic City Images**
+  Each searched city displays a live image to enhance visual appeal.
 
-Weather Icons
-Weather icons visually represent weather conditions such as rain, clouds, or sunshine.
+* **Weather Icons**
+Icons represent weather conditions such as clouds, rain, and sunshine.
 
-Responsive Design
-The interface adapts to different screen sizes for desktop and mobile devices.
+* **Responsive Design**
+Fully responsive layout for mobile, tablet, and desktop devices.
 
-Error Handling
-The application displays an error message if the user enters an invalid city.
+* **Error Handling**
+Displays user-friendly messages for invalid inputs or API errors.
+
+===
+
+##  Technologies Used
+
+* **HTML5** – Structure of the application
+* **CSS3** – Styling and responsive design
+* **JavaScript (ES6)** – Interactivity and API integration
+* **OpenWeather API** – Real-time weather data
+* **Unsplash API** – Dynamic city images
+* **Git & GitHub** – Version control and deployment
+===
+
+##  Project Structure
 
 
-## Technologies Used
-
-HTML5
-Used to structure the web application.
-
-CSS3
-Used to style the user interface and create a responsive layout.
-
-JavaScript
-Used to add interactivity and connect to the weather API.
-
-OpenWeather API
-Provides real-time weather data.
-
-Unsplash Image Service
-Used to retrieve dynamic city images.
-
-GitHub
-Used for version control and project hosting.
-
-## Project Structure
-global-weather-explorer
-
+global-weather-explorer/
 │
-├── index.html          # Main HTML file
-├── README.md           # Project documentation
+├── index.html                # Main application page
+├── successful.html          # Success/confirmation page
+├── README.md                # Project documentation
+├── project-report.md        # Project report
 │
-├── assets              # Static assets
-│   ├── css
-│   │   └── style.css   # Styling and layout
+├── assets/                  # Static assets
+│   ├── css/
+│   │   └── style.css        # Styling and layout
 │   │
-│   ├── js
-│   │   └── app.js      # JavaScript functionality
+│   ├── js/
+│   │   └── app.js           # Main JavaScript logic
 │   │
-│   └── images          # Images (optional assets)
+│   └── images/              # Optional images
 │
-├── docs
-│   └── wireframes.md   # Wireframes and design planning
+├── docs/                    # Project documentation
+│   ├── wireframes.html      # Visual wireframes
+│   └── wireframes.md        # Wireframe explanation
 │
-├── testing
-│   └── testing.md      # Testing documentation
-<<<<<<< HEAD
+├── testing/                 # Testing documentation
+│   └── testing.md
 
+
+===
 
 ## Deployment
 
-### The project was deployed using GitHub Pages.
-Githup pages link: [text](https://github.com/hangelaj/global-weather-explorer)
+This project is deployed using **GitHub Pages**.
 
-## Steps for Deployment
-1. The project code was pushed to a GitHub repository.
-2. The repository settings were opened and the Pages section was selected.
-3. The deployment source was set to the main branch.
-4. The root folder was selected as the deployment directory.
-To deploy:
+###  Live Demo
 
-## Repository Settings
-1. Click Pages
-2. Select branch: main
-3. Select folder: / (root) or /pages
-4. Save
+ https://hangelaj.github.io/global-weather-explorer/
 
-## The project was successfully deployed and is accessible via a public URL.
-Live Link: [https://hangelaj.github.io/global-weather-explorer/ ](https://hangelaj.github.io/global-weather-explorer/)
+###  GitHub Repository
+ https://github.com/hangelaj/global-weather-explorer
 
-You can view the live project here:
-=======
+===
 
-## How to Run the Project
+##  Deployment Steps
 
-1. Download or clone the repository from GitHub.
+1. Push project code to a GitHub repository
+2. Go to **Repository Settings**
+3. Navigate to **Pages**
+4. Select:
 
-2. Open the project folder.
+   * Branch: `main`
+   * Folder: `/ (root)`
+5. Click **Save**
+6. Wait for the deployment link to be generated
 
-3. Open the file index.html in a web browser.
+===
 
-4. Enter a city name and click the search button to view weather information.
+##  How to Run the Project Locally
 
+1. Clone the repository:
+git clone https://github.com/hangelaj/global-weather-explorer.git
+  
+2. Open the project folder
+
+3. Open `index.html` in your browser
+
+4. Enter a city name and click **Search**
+
+===
 
 ## API Integration
 
-The application uses the OpenWeather API to retrieve weather information.
+The application uses the **OpenWeather API** to fetch:
 
-Data retrieved from the API includes:
+* Temperature
+* Weather condition
+* Humidity
+* Wind speed
+* 5-day forecast data
 
-Temperature
-Weather condition
-Humidity
-Wind speed
-Forecast data
+Data is retrieved using JavaScript `fetch()` requests and dynamically displayed on the page.
 
-The API is accessed using JavaScript fetch requests.
+===
 
+##  Testing
 
-## Future Improvements
+Testing was conducted to ensure:
 
-Possible improvements for the project include:
+* Correct API responses
+* Valid and invalid city handling
+* Responsive design across devices
+* Proper UI rendering
 
-Adding an interactive world map
-Allowing users to save favourite cities
-Adding temperature unit conversion (Celsius and Fahrenheit)
-Adding weather animations or themes
+See full testing details in:
 
+- `testing/testing.md`
+
+===
+
+##  User Experience (UX)
+
+The application is designed to be:
+
+* Simple and intuitive
+* Fast and responsive
+* Visually engaging
+* Easy to navigate
+
+Users can quickly search and view weather data with minimal interaction.
+
+===
+
+##  Future Improvements
+
+* Add interactive map integration
+* Save favourite cities (localStorage)
+* Temperature unit toggle (°C / °F)
+* Add animations and themes
+
+===
 
 ## Author
-Level 5 Diploma in Web Application Development project 2
-Project developed as part of a front-end web development learning project.
 
-Author: Jemal Hangela
+**Jemal Hangela**
+Level 5 Diploma in Web Application Development
+
+This project was developed as part of an Interactive Frontend Development milestone project.
