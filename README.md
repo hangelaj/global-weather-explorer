@@ -88,7 +88,7 @@ This project is deployed using **GitHub Pages**.
 https://hangelaj.github.io/global-weather-explorer/ 
 
 ###  GitHub Repository
-https://github.com/hangelaj/global-weather-explorer.git 
+https://github.com/hangelaj/global-weather-explorer
 
 ===
 
